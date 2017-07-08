@@ -1,0 +1,23 @@
+
+interface Vanderas {
+    deColombia: String;
+    deEspana: String;
+    deHolanda: String;
+}
+
+
+var lasvanderade: Vanderas {
+    deColombia: "Amarillo,Azul,Rojo",
+    deEspana: "Rojo y Amarillo",
+    deHolanda: "Azul y blanco"
+}
+
+
+class Colores {
+        colombia():void {
+console.log(Vanderas.deColombia) 
+}
+}
+
+var MuestraVanderas = new Colores();
+MuestraVanderas.colombia();
