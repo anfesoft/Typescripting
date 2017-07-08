@@ -1,5 +1,4 @@
-
-    interface Vanderas {
+interface Vanderas {
         deColombia: String;
         deEspana: String;
         deHolanda: String;
@@ -21,3 +20,4 @@
 
     var MuestraVanderas = new Colores();
     MuestraVanderas.colombia();
+
