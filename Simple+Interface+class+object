@@ -4,7 +4,6 @@ interface Vanderas {
         deHolanda: String;
     }
 
-
     var lasvanderade: Vanderas = {
         deColombia: "Amarillo,Azul,Rojo",
         deEspana: "Rojo y Amarillo",
